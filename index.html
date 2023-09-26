@@ -15,58 +15,65 @@
             <a href="./index.html">
                 <img src="./img/logo.svg" alt="logo" class="header-logo">
             </a>
-            <ul class="header-list">
+            <ul class="header-nav">
                 <li>
-                    <a href="./index.html" class="list-item">Home</a>
+                    <a href="./index.html" class="nav-item">Home</a>
                 </li>
                 <li>
-                    <a href="#about" class="list-item">About</a>
+                    <a href="#about" class="nav-item">About</a>
                 </li>
                 <li>
-                    <a href="/" class="list-item">Tech Stack</a>
+                    <a href="#tech" class="nav-item">Tech Stack</a>
                 </li>
                 <li>
-                    <a href="/" class="list-item">Projects</a>
+                    <a href="#projects" class="nav-item">Projects</a>
                 </li>
                 <li>
-                    <a href="/" class="list-item">Contact</a>
+                    <a href="#contacts" class="nav-item">Contact</a>
                 </li>
             </ul>
-            <nav>
-                <a href="/" class="nav-item"><img src="./img/icon-1.svg" alt="Git" class="header-icon"></a>
-                <a href="/" class="nav-item"><img src="./img/icon-2.svg" alt="Twitter" class="header-icon"></a>
-                <a href="/" class="nav-item"><img src="./img/icon-3.svg" alt="LinkedIn" class="header-icon"></a>
+            <label class="dark-light">
+                <input type="checkbox">
+                <span class="sun">&#9728</span>
+                <span class="moon">&#9790</span>
+                <span class="toggle"></span>
+                <span class="animate-bg"></span>
+            </label>
+            <nav class="header-link">
+                <a href="/"><img src="./img/icon-1.svg" alt="Git" class="link-icon"></a>
+                <a href="/"><img src="./img/icon-2.svg" alt="Twitter" class="link-icon"></a>
+                <a href="/"><img src="./img/icon-3.svg" alt="LinkedIn" class="link-icon"></a>
             </nav>
         </header>
-        <div class="header-mobile">
+        <div class="mobile-header">
             <a class="mobile-logo">
                 <img src="./img/logo.svg" alt="logo" class="mobile-logo-img">
             </a>
             <nav>
-                <a href="/" class="nav-item"><img src="./img/icon-1.svg" alt="Git" class="header-icon"></a>
-                <a href="/" class="nav-item"><img src="./img/icon-2.svg" alt="Twitter" class="header-icon"></a>
-                <a href="/" class="nav-item"><img src="./img/icon-3.svg" alt="LinkedIn" class="header-icon"></a>
+                <a href="/" class="nav-item"><img src="./img/icon-1.svg" alt="Git" class="link-icon"></a>
+                <a href="/" class="nav-item"><img src="./img/icon-2.svg" alt="Twitter" class="link-icon"></a>
+                <a href="/" class="nav-item"><img src="./img/icon-3.svg" alt="LinkedIn" class="link-icon"></a>
             </nav>
-            <div class="navbar">
-                <div class="navbar-links">
-                    <input type="checkbox" id="checkbox-toggle">
+            <div class="mobile-menu">
+                <div class="mobile-navbar">
+                    <input type="checkbox" id="checkbox-toggle" class="navbar-toggle">
                     <label for="checkbox-toggle" class="hamburger-menu">&#9776;</label>
-                    <div class="mobile-menu">
-                        <ul class="mobile-menu-list">
+                    <div class="mobile-nav">
+                        <ul class="mobile-list">
                             <li>
-                                <a href="./index.html" class="list-item">Home</a>
+                                <a href="./index.html" class="nav-item">Home</a>
                             </li>
                             <li>
-                                <a href="#about" class="list-item">About</a>
+                                <a href="#about" class="nav-item">About</a>
                             </li>
                             <li>
-                                <a href="/" class="list-item">Tech Stack</a>
+                                <a href="#tech" class="nav-item">Tech Stack</a>
                             </li>
                             <li>
-                                <a href="/" class="list-item">Projects</a>
+                                <a href="#projects" class="nav-item">Projects</a>
                             </li>
                             <li>
-                                <a href="/" class="list-item">Contact</a>
+                                <a href="#contacts" class="nav-item">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -76,17 +83,17 @@
         <main>
             <section class="hero">
                 <div class="hero-title">
-                    <h1 class="hero-text">Hi 👋,<br>My name is <span class="hero-text-name">Pavan MG</span><br>I build things for web</h1>
+                    <h1 class="hero-text">Hi 👋,<br>My name is <span class="hero-text-name">Khvorostova Olena</span><br>I build things for web</h1>
                 </div>
-                <img src="./img/portret.jpg" alt="portret" class="hero-img">
+                <img src="./img/photo.jpeg" alt="portret" class="hero-img">
             </section>
             <section class="about" id="about">
                 <div class="about-descr">
-                    <h2 class="about-title">About Me</h2>
+                    <h2 class="main-title">About Me</h2>
                     <p class="about-text">The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.</p>
                 </div>
                 <div class="about-work">
-                    <h2 class="about-title">Work Experience</h2>
+                    <h2 class="main-title">Work Experience</h2>
                     <div class="work">
                         <div class="work-position">
                             <h3 class="work-title">Junior Web Developer</h3>
@@ -186,6 +193,133 @@
                     </div>
                 </div>
             </section>
+            <section class="tech" id="tech">
+                <h2 class="main-title">My Tech Stack</h2>
+                <p class="main-text"> Technologies I’ve been working with recently</p>
+                <div class="tech-skills">
+                    <img src="./img/tech-1.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-2.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-3.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-4.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-5.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-6.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-7.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-8.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-9.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-10.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-11.svg" alt="skills-icon" class="skills-icon">
+                    <img src="./img/tech-12.svg" alt="skills-icon" class="skills-icon">
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="main-title">Projects</h2>
+                <p class="main-text">Things I’ve built so far</p>
+                <div class="projects-cards">
+                    <div class="cards-item">
+                        <img src="./img/card-1.png" alt="projects photo" class="cards-img">
+                        <div class="cards-descr">
+                            <h4 class="cards-title">Project Tile goes here</h4>
+                            <p class="cards-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                            <p class="text-descr">Tech stack : <span class="text-dec">HTML , JavaScript, SASS, React</span></p>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-1.svg" alt="link" class="card-link-icon">
+                                Live Preview
+                            </a>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-2.svg" alt="git" class="card-link-icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards-item">
+                        <img src="./img/card-2.png" alt="projects photo" class="cards-img">
+                        <div class="cards-descr">
+                            <h4 class="cards-title">Project Tile goes here</h4>
+                            <p class="cards-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                            <p class="text-descr">Tech stack : <span class="text-dec">HTML , JavaScript, SASS, React</span></p>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-1.svg" alt="link" class="card-link-icon">
+                                Live Preview
+                            </a>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-2.svg" alt="git" class="card-link-icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards-item">
+                        <img src="./img/card-3.png" alt="projects photo" class="cards-img">
+                        <div class="cards-descr">
+                            <h4 class="cards-title">Project Tile goes here</h4>
+                            <p class="cards-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                            <p class="text-descr">Tech stack : <span class="text-dec">HTML , JavaScript, SASS, React</span></p>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-1.svg" alt="link" class="card-link-icon">
+                                Live Preview
+                            </a>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-2.svg" alt="git" class="card-link-icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards-item">
+                        <img src="./img/card-4.png" alt="projects photo" class="cards-img">
+                        <div class="cards-descr">
+                            <h4 class="cards-title">Project Tile goes here</h4>
+                            <p class="cards-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                            <p class="text-descr">Tech stack : <span class="text-dec">HTML , JavaScript, SASS, React</span></p>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-1.svg" alt="link" class="card-link-icon">
+                                Live Preview
+                            </a>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-2.svg" alt="git" class="card-link-icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards-item">
+                        <img src="./img/card-5.png" alt="projects photo" class="cards-img">
+                        <div class="cards-descr">
+                            <h4 class="cards-title">Project Tile goes here</h4>
+                            <p class="cards-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                            <p class="text-descr">Tech stack : <span class="text-dec">HTML , JavaScript, SASS, React</span></p>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-1.svg" alt="link" class="card-link-icon">
+                                Live Preview
+                            </a>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-2.svg" alt="git" class="card-link-icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                    <div class="cards-item">
+                        <img src="./img/card-6.png" alt="projects photo" class="cards-img">
+                        <div class="cards-descr">
+                            <h4 class="cards-title">Project Tile goes here</h4>
+                            <p class="cards-text">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+                            <p class="text-descr">Tech stack : <span class="text-dec">HTML , JavaScript, SASS, React</span></p>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-1.svg" alt="link" class="card-link-icon">
+                                Live Preview
+                            </a>
+                            <a href="/" class="cards-link">
+                                <img src="./img/tech-icon-2.svg" alt="git" class="card-link-icon">
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <h5 class="contacts-title">For any questions please mail us:<br>
+                    <a href="mailto:hi@pavanmg.in" class="contacts-link">
+                        hi@pavanmg.in</a>
+                </h5>
+                
+            </section>
         </main>
         <footer class="footer">
             <div class="footer-container">
@@ -196,30 +330,36 @@
                     <a href="tel:+911234509876" class="footer-nav-item">+91 12345 09876</a>
                     <a href="mailto:info@example.com" class="footer-nav-item">info@example.com</a>
                     <div class="mobile-footer-icon">
-                        <a href="/" class="nav-item"><img src="./img/icon-1.svg" alt="Git" class="header-icon"></a>
-                        <a href="/" class="nav-item"><img src="./img/icon-2.svg" alt="Twitter" class="header-icon"></a>
-                        <a href="/" class="nav-item"><img src="./img/icon-3.svg" alt="LinkedIn" class="header-icon"></a>
+                        <a href="/">
+                            <img src="./img/icon-1.svg" alt="Git" class="link-icon">
+                        </a>
+                        <a href="/">
+                            <img src="./img/icon-2.svg" alt="Twitter" class="link-icon">
+                        </a>
+                        <a href="/">
+                            <img src="./img/icon-3.svg" alt="LinkedIn" class="link-icon">
+                        </a>
                     </div>
                 </nav>
             </div>
             <hr class="footer-line">
             <div class="footer-content">
                 <div class="mobile-footer-nav">
-                    <ul class="header-list">
+                    <ul class="header-nav">
                         <li>
-                            <a href="./index.html" class="list-item">Home</a>
+                            <a href="./index.html" class="nav-item">Home</a>
                         </li>
                         <li>
-                            <a href="/" class="list-item">About</a>
+                            <a href="#about" class="nav-item">About</a>
                         </li>
                         <li>
-                            <a href="/" class="list-item">Tech Stack</a>
+                            <a href="#tech" class="nav-item">Tech Stack</a>
                         </li>
                         <li>
-                            <a href="/" class="list-item">Projects</a>
+                            <a href="projects" class="nav-item">Projects</a>
                         </li>
                         <li>
-                            <a href="/" class="list-item">Contact</a>
+                            <a href="contacts" class="nav-item">Contact</a>
                         </li>
                     </ul>
                 </div>
